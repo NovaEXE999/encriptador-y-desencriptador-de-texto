@@ -7,3 +7,7 @@
 <h3>Estado</h3>
 
 -Terminado
+
+<h4>Nota</h4>
+
+-Una versión personalizada está en construcción
