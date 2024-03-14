@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https: //fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        <title>Encriptador y Desencriptador de texto</title>
+    </head>
+
+    <body>
+
+        <header>
+            
+           <img class="imagen-logo" src="Imagenes/Logo.png" alt="Logo de el Encriptador y Desencriptador de texto">
+        
+        </header>
+
+        <main>
+            <section class="area-texto-inicial">
+
+                <div class="contenedor-texto">
+                    <textarea id="ingreso-texto" class="caja-texto" placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+
+                <div class="alerta">
+                    <img src="Imagenes/Signo alerta.png" alt="Signo de alerta">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+
+                <div class="botones">
+                    <input type="button" id="boton-encriptar" class="btn-encriptar" value="Encriptar">
+                    <input type="button" id="boton-desencriptar" class="btn-desencriptar" value="Desencriptar">
+                </div>
+
+            </section>
+
+            <section class="area-texto-final">
+                <div class="contenedor-munieco">
+                    <img src="Imagenes/Muñeco.png" alt="Muñeco sin resultados">
+                </div>
+
+                <div class="contenedor-parrafos">
+                    <h3>Ningún mensaje fue <br> encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+
+                <div class="contenedor-copiar">
+                    <input type="button" id="boton-copiar" class="btn-copiar" value="Copiar">
+                </div>
+
+                <div class="caja-resultado">
+                    <p class="texto-resultado"></p>
+                </div>
+            </section>
+        </main>
+
+    </body>
+    
+    <script src="app.js"></script>
+    
+</html>
+
+
