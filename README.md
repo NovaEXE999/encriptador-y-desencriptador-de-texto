@@ -1,6 +1,6 @@
 <h1>Encriptador y Desencriptador de texto</h1>
 
--Version inicial del encriptador
+-Version inicial del encriptador Alura
 
 -Solo encripta textos en minúsculas y sin acentos
 
